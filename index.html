@@ -9,12 +9,26 @@ title: Blog
   <li><a class="menu__item" href="/contact/">Contact</a>
 </ul>
 
-<div class="post">
-	<ul>
-	  {% for post in site.posts %}
-		<li>
-		  <a href="{{ post.url }}">{{ post.title }}</a>
-		</li>
-	  {% endfor %}
-	</ul>`
+<div class=banner-image>
+    <div class="banner-text">
+        <h1>Where the $%@! is Eric?</h1>
+    </div>
+</div>
+
+<div class="post-list">
+  {% for post in site.posts %}
+      <div class="post-short">
+          <div class="post-short-header">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              <span class="date">{{ post.date | date_to_string  }}</span>
+          </div>
+          <div class="post-summary">
+              <img src={{post.header-image}}>
+              {{ post.summary }}
+              <br>
+              <a href="{{ post.url }}">Read Full Post</a>
+          </div>
+          <hr>
+      </div>
+  {% endfor %}
 </div>
