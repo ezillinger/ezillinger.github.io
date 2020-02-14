@@ -1,5 +1,4 @@
 permalink: /:categories/:title/
-baseurl: /website3
 markdown: kramdown
 exclude: 
  - "/scripts"
