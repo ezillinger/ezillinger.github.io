@@ -2,7 +2,7 @@
 
 title: 'Beaten by Baja'
 published: true
-categories: [pacific-coast]
+categories: [cycling]
 header-image: "/images/breakingbad.jpg"
 summary: "When the going gets tough, quit."
 

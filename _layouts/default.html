@@ -3,11 +3,27 @@
 <head>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157446657-1"></script>
 	<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-157446657-1'); </script> 
-    <link href='/style.css' rel='stylesheet' type='text/css' />
+    <link href='/assets/css/style.css' rel='stylesheet' type='text/css' />
     <link href="/favicon.png" rel="icon" sizes="32x32">
     <title>{{ page.title }} - Eric Zillinger</title>
+    <link href="/assets/css/fontawesome.css" rel="stylesheet" />
+    <link href="/assets/css/brands.css" rel="stylesheet" />
+    <link href="/assets/css/solid.css" rel="stylesheet" />
+    <base target="_parent"/>
 </head>
 
 <body>
+    <ul class=menu>
+    <li><a class="menu__item {%if page.title == "Blog"%} menu__item_selected {% endif %}" href="/">Blog</a>
+    <li><a class="menu__item {%if page.title == "Projects"%} menu__item_selected {% endif %}" href="/projects/">Projects</a>
+    <li><a class="menu__item {%if page.title == "Contact"%} menu__item_selected {% endif %}" href="/contact/">Contact</a>
+    </ul>
+    <div class=banner-image>
+        <div class="blur">
+        <div class="banner-text">
+            <h1>{{ page.title }}</h1>
+        </div>
+</div>
+    </div>
     {{ content }}
 </body>

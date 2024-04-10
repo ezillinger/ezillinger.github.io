@@ -3,18 +3,6 @@ layout: default
 title: Blog
 ---
 
-<ul class=menu>
-  <li><span class="menu__item menu__item_selected" href="/">Blog</span>
-  <li><a class="menu__item" href="/projects/">Projects</a>
-  <li><a class="menu__item" href="/contact/">Contact</a>
-</ul>
-
-<div class=banner-image>
-    <div class="banner-text">
-        <h1>Where the $%@! is Eric?</h1>
-    </div>
-</div>
-
 <div class="post-list">
   {% for post in site.posts %}
       <div class="post-short">
@@ -26,7 +14,7 @@ title: Blog
               <img src={{post.header-image}}>
               {{ post.summary }}
               <br>
-              <a href="{{ post.url }}">Read Full Post</a>
+              <a href="{{ post.url }}"><b><i>&nbsp; Read All About This <i class="fa-solid fa-arrow-right"></i></b></i></a>
           </div>
           <hr>
       </div>

@@ -1,8 +1,9 @@
 ---
 title: 'Astoria to San Francisco'
 published: true
-header_image: '0'
-categories: [pacific-coast]
+header-image: '/images/tent-garibaldi.jpg'
+categories: [cycling]
+summary: 'Oregon and Northern California'
 
 ---
 

@@ -2,8 +2,9 @@
 
 title: 'Vancouver to Astoria'
 published: true
-header_image: '0'
-categories: [pacific-coast]
+header-image: '/images/DSC_5621.JPG'
+categories: [cycling]
+summary: 'Cycling Vancouver to Astoria'
 
 ---
 

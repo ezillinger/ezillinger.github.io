@@ -2,8 +2,9 @@
 
 title: 'San Francisco to Ensenada'
 published: true
-header_image: '0'
-categories: [pacific-coast]
+header-image: '/images/DSC_6321.JPG'
+categories: [cycling]
+summary: "Southern California"
 
 ---
 
