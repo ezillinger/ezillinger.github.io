@@ -6,9 +6,9 @@
     <link href='/assets/css/style.css' rel='stylesheet' type='text/css' />
     <link href="/images/favicon.png" rel="icon" sizes="32x32">
     <title>{{ page.title }} - Eric Zillinger</title>
-    <link href="/assets/css/fontawesome.css" rel="stylesheet" />
-    <link href="/assets/css/brands.css" rel="stylesheet" />
-    <link href="/assets/css/solid.css" rel="stylesheet" />
+    <link href="/assets/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="/assets/css/brands.min.css" rel="stylesheet" />
+    <link href="/assets/css/solid.min.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -21,7 +21,7 @@
     <div class=banner-image>
         <div class="blur">
         <div class="banner-text">
-            {% if page.is_post %}}
+            {% if page.is_post %}
             <h1>Blog</h1>
             {% else %}
             <h1>{{ page.title }}</h1>
