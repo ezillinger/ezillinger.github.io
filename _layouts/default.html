@@ -9,7 +9,7 @@
     <link href="/assets/css/fontawesome.css" rel="stylesheet" />
     <link href="/assets/css/brands.css" rel="stylesheet" />
     <link href="/assets/css/solid.css" rel="stylesheet" />
-    <base target="_parent"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -21,7 +21,11 @@
     <div class=banner-image>
         <div class="blur">
         <div class="banner-text">
+            {% if page.is_post %}}
+            <h1>Blog</h1>
+            {% else %}
             <h1>{{ page.title }}</h1>
+            {% endif %}
         </div>
 </div>
     </div>

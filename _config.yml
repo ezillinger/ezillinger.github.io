@@ -4,8 +4,16 @@ exclude:
  - "/scripts"
 
 defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      author: "Eric Zillinger"
+
   -
     scope:
       path: "_posts"
     values:
       layout: "post"
+      is_post: true
+
