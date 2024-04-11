@@ -1,6 +1,6 @@
 ---
 
-title: 'So I Cycled Across 2 Continents'
+title: 'So I Cycled Across Two Continents'
 published: true
 categories: [cycling]
 header-image: "/images/eurasia_map.jpg"
@@ -10,7 +10,7 @@ summary: "And all I got was really swole calves"
 #### The Route
 ![The Route](/images/eurasia_map.jpg "The Route")
 
-Over 11 months, from April 1st 2023 to March 1st 2024, I cycled from London to Singapore solo. I didn't take any other forms of transit except for a few short ferries, a unfortunately necessary flight over the Caspian sea, and three short stints in the back of Chinese police cars.
+Over 11 months, from April 1st 2023 to March 1st 2024, I cycled from London to Singapore solo. I didn't take any other forms of transit except for a few short ferries, an unfortunately necessary flight over the Caspian sea, and three short stints in the back of Chinese police cars.
 
 #### Photos
 
