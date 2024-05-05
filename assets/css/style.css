@@ -205,11 +205,16 @@ a.menu__item:hover {
     text-align: center;
 }
 
-.big-icon-label,
+.big-icon a,
 a.big-icon-label {
     text-align: center;
     color:#000;
     text-decoration: none; 
+}
+
+.big-icon a:hover,
+a.big-icon-label:hover {
+    text-decoration: underline; 
 }
 
 a {
