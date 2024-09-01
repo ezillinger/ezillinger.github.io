@@ -82,8 +82,6 @@ Over 11 months, from April 1st 2023 to March 1st 2024, I cycled from London to S
 
 ![Tajikistan](/images/big_trip/tajikistan3.jpg "Tajikistan")
 
-![Tajikistan](/images/big_trip/tajikistan4.jpg "Tajikistan")
-
 ![Tajikistan](/images/big_trip/tajikistan5.jpg "Tajikistan")
 
 ![Tajikistan](/images/big_trip/tajikistan6.jpg "Tajikistan")
